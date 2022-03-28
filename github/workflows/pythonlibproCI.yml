@@ -1,4 +1,4 @@
-name: libpythonproRafael-CI
+name: libpythonproRAFAEL-CI
 
 on: [push]
 
