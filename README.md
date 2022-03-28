@@ -8,6 +8,7 @@ python -m venv .venv
 pip install -r requirements-dev.txt
 ```
 
+Para rodar:
 ```console
 flake8
 
