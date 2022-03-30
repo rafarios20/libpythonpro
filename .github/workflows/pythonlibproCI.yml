@@ -25,7 +25,7 @@ jobs:
       run: |
         pytest libpythonpro --cov=libpythonpro
     - name: Codecov report
-      run: |
-        codecov
       env:
-        CODECOV_TOKEN: ${{8055dad0-9711-4975-ae78-eb254c96f655}}
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      run: |
+        pip run codecov
