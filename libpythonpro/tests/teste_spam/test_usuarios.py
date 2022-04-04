@@ -4,11 +4,12 @@ from libpythonpro.spam.db import Conexao
 from libpythonpro.spam.modelos import Usuario
 
 
-@pytest.fixture
+@pytest.fixture(scope='module')
 def conexao():
     conexao_obj = Conexao()
     yield conexao_obj
     conexao_obj.fechar()
+
 
 @pytest.fixture
 def sessao(conexao):
@@ -29,6 +30,3 @@ def test_listar_usuarios(sessao):
     for usuario in usuarios:
         sessao.salvar(usuario)
     assert usuarios == sessao.listar()
-
-
-
