@@ -13,5 +13,6 @@ atomicwrites==1.4.0
 #Deps do coverage
 coverage==6.3.2
 pytest-cov==3.0.0
+pytest-mock==3.7.0
 -r requirements.txt
 setuptools~=58.1.0
