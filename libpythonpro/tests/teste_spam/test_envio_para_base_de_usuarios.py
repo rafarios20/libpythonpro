@@ -30,7 +30,7 @@ def test_qde_de_spam(sessao, usuarios):
         'Curso Python Pro',
         'Confira os módulos fantásticos'
     )
-    assert len(usuarios)==enviador.enviar.call_count
+    assert len(usuarios) == enviador.enviar.call_count
 
 
 class EnviadorMock(Enviador):
