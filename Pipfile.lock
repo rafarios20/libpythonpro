@@ -198,12 +198,8 @@
             "version": "==3.0.8"
         },
         "pytest": {
-            "hashes": [
-                "sha256:841132caef6b1ad17a9afde46dc4f6cfa59a05f9555aae5151f73bdf2820ca63",
-                "sha256:92f723789a8fdd7180b6b06483874feca4c48a5c76968e03bb3e7f806a1869ea"
-            ],
-            "index": "pypi",
-            "version": "==7.1.1"
+            "hashes": [],
+            "version": "==7.4.0"
         },
         "pytest-cov": {
             "hashes": [
